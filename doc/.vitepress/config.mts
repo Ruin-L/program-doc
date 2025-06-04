@@ -17,7 +17,7 @@ export default defineConfig({
     }
   },
   themeConfig: {
-    logo: '/public/logo.svg', // 改为直接从根路径引用，图片需要放在 public 目录下
+    logo: '/logo.svg', // 改为直接从根路径引用，图片需要放在 public 目录下
     search: {
       provider: 'local',
       options: {

@@ -7,7 +7,7 @@ hero:
   text: '包括操作手册、技术栈等内容'
   tagline: 舜宇贝尔公司项目文档
   # 设置右侧大logo
-  image: /public/vitepress-logo-large.svg
+  image: /vitepress-logo-large.svg
   actions:
     - theme: brand
       text: 培训管理系统
