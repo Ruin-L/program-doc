@@ -8,7 +8,7 @@ export default defineConfig({
   outDir: '../docs', // 将构建输出目录设置为项目根目录下的 docs
   head: [
     // 添加图标
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/program-doc/favicon.ico' }]
   ],
 
   locales: {
