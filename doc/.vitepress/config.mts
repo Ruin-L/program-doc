@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: '项目操作文档',
   description: '基于vitepress的项目文档',
+  outDir: '../docs', // 将构建输出目录设置为项目根目录下的 docs
   head: [
     // 添加图标
     ['link', { rel: 'icon', href: '/favicon.ico' }]
