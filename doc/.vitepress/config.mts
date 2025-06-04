@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/', // 使用绝对路径
+  base: '/program-doc/', // 设置为 GitHub 仓库名
   title: '项目文档',
   description: '基于vitepress的项目文档',
   outDir: '../docs', // 将构建输出目录设置为项目根目录下的 docs
