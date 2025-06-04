@@ -48,7 +48,8 @@ export default defineConfig({
         items: [
           { text: 'Vue', link: '/tech/vue' },
           { text: 'Express', link: '/tech/express' },
-          { text: 'Vite', link: '/tech/vite' }
+          { text: 'Vite', link: '/tech/vite' },
+          { text: 'mysql', link: '/tech/mysql' }
         ]
       }
     ],
@@ -63,8 +64,6 @@ export default defineConfig({
       }
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    socialLinks: [{ icon: 'github', link: 'https://github.com/Ruin-L' }]
   }
 })
