@@ -1,6 +1,10 @@
 import DefaultTheme from 'vitepress/theme'
 import './style/index.css'
+import Test from '../../components/test.vue'
+
 export default {
-  extends: DefaultTheme
-  // ...DefaultTheme, //或者这样写也可
+  extends: DefaultTheme,
+  enhanceApp({ app }) {
+    app.component('Test', Test)
+  }
 }
