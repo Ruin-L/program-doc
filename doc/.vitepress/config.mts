@@ -42,7 +42,15 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '文档', link: '/markdown-examples' }
+      { text: '文档', link: '/markdown-examples' },
+      {
+        text: '技术栈',
+        items: [
+          { text: 'Vue', link: '/tech/vue' },
+          { text: 'Express', link: '/tech/express' },
+          { text: 'Vite', link: '/tech/vite' }
+        ]
+      }
     ],
 
     sidebar: [
